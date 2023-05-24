@@ -3,10 +3,13 @@ env:
   # Username/email used to commit to Cloud Manager's Git repository
   USER_NAME: abhishekanand-caleb-infosys-com
   USER_EMAIL: abhishekanand.caleb@infosys.com
+   # Username/Pass used to commit to Cloud Manager's Git repository
+  MAIN_USER: abhishekanand-caleb-infosys-com
+  MAIN_PASSWORD: y5ix7csg3bnjuleozmremm6xpgxmltdrnnj2k5nq4dzdhj7432zq
   # Directory within the Cloud Manager Git repository
   PROJECT_DIR: project-a
   # Cloud Manager's Git repository
-  MAIN_REPOSITORY: https://git.cloudmanager.adobe.com/aucklandcouncilnz/SampleRepo/
+  MAIN_REPOSITORY: https://$MAIN_USER:$MAIN_PASSWORD@git.cloudmanager.adobe.com/aucklandcouncilnz/SampleRepo/
   # The branch in Cloud Manager's Git repository to push to
   MAIN_BRANCH : develop
 
