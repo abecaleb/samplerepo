@@ -1,14 +1,14 @@
 name: SYNC
 env:
   # Username/email used to commit to Cloud Manager's Git repository
-  USER_NAME: <NAME>
-  USER_EMAIL: <EMAIL>
+  USER_NAME: Abhishek
+  USER_EMAIL: abhishekanand.caleb@infosys.com
   # Directory within the Cloud Manager Git repository
   PROJECT_DIR: project-a
   # Cloud Manager's Git repository
   MAIN_REPOSITORY: https://abhishekanand-caleb-infosys-com:3wydnpn7ezbldmcqhsmixvngdca4x5xqaj2ri2izkviicgu4cfla@git.cloudmanager.adobe.com/aucklandcouncilnz/SampleRepo
   # The branch in Cloud Manager's Git repository to push to
-  MAIN_BRANCH : <BRANCH_NAME>
+  MAIN_BRANCH : develop
 
 # Only run on a push to this branch
 on:
@@ -39,7 +39,8 @@ jobs:
       # Checkout the main project
       - name: Checkout main project
         run:
-          git clone -b ${MAIN_BRANCH} ${MAIN_REPOSITORY} ${MAIN_BRANCH}
+          git clone -b ${
+          } ${MAIN_REPOSITORY} ${MAIN_BRANCH}
       # Move sub project
       - name: Move project to main project
         run: |
