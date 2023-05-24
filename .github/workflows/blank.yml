@@ -6,7 +6,7 @@ env:
   # Directory within the Cloud Manager Git repository
   PROJECT_DIR: project-a
   # Cloud Manager's Git repository
-  MAIN_REPOSITORY: https://abhishekanand-caleb-infosys-com:ba6rj4svtndcvawaofszzbitctl7276jff4gguidowf45djbkodq@git.cloudmanager.adobe.com/aucklandcouncilnz/SampleRepo
+  MAIN_REPOSITORY: https://abhishekanand-caleb-infosys-com:on4xfhazzdjncirccuo35fuvmbkb3eo4ujdb7han6hmdr3iip66q@git.cloudmanager.adobe.com/aucklandcouncilnz/SampleRepo
   # The branch in Cloud Manager's Git repository to push to
   MAIN_BRANCH : develop
 
