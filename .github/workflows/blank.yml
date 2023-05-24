@@ -1,7 +1,7 @@
 name: SYNC
 env:
   # Username/email used to commit to Cloud Manager's Git repository
-  USER_NAME: Abhishek
+  USER_NAME: abhishekanand-caleb-infosys-com
   USER_EMAIL: abhishekanand.caleb@infosys.com
   # Directory within the Cloud Manager Git repository
   PROJECT_DIR: project-a
