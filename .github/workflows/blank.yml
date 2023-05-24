@@ -33,7 +33,7 @@ jobs:
       # Set global git configuration
       - name: Set git config
         run: |
-          git config --global credential.helper cache
+         # git config --global credential.helper cache
           git config --global user.email ${USER_EMAIL}
           git config --global user.name ${USER_NAME}
       # Checkout the main project
