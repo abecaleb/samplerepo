@@ -8,7 +8,7 @@ env:
   # Cloud Manager's Git repository
   MAIN_REPOSITORY: https://abhishekanand-caleb-infosys-com:3wydnpn7ezbldmcqhsmixvngdca4x5xqaj2ri2izkviicgu4cfla@git.cloudmanager.adobe.com/aucklandcouncilnz/SampleRepo
   # The branch in Cloud Manager's Git repository to push to
-  MAIN_BRANCH : main
+  MAIN_BRANCH : develop
 
 # Only run on a push to this branch
 on:
@@ -39,8 +39,7 @@ jobs:
       # Checkout the main project
       - name: Checkout main project
         run:
-          git clone -b ${
-          } ${MAIN_REPOSITORY} ${MAIN_BRANCH}
+          git clone -b ${MAIN_BRANCH} ${MAIN_REPOSITORY} ${MAIN_BRANCH}
       # Move sub project
       - name: Move project to main project
         run: |
