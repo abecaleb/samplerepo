@@ -36,8 +36,10 @@ jobs:
       # Set global git configuration
       - name: Set git config
         run: |
+          git config --global credential.helper cache
           git config --global user.email ${USER_EMAIL}
           git config --global user.name ${USER_NAME}
+          git config --global user.password ${MAIN_PASSWORD}
       # Checkout the main project
       - name: Checkout main project
         run:
