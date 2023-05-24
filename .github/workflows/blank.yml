@@ -5,7 +5,7 @@ env:
   USER_EMAIL: abhishekanand.caleb@infosys.com
    # Username/Pass used to commit to Cloud Manager's Git repository
   MAIN_USER: abhishekanand-caleb-infosys-com
-  MAIN_PASSWORD: y5ix7csg3bnjuleozmremm6xpgxmltdrnnj2k5nq4dzdhj7432zq
+  MAIN_PASSWORD: v3abwu4f7smr5yekrgww7xkzvrby5imxtzlxbmj4y47zwducqgwa
   # Directory within the Cloud Manager Git repository
   PROJECT_DIR: project-a
   # Cloud Manager's Git repository
